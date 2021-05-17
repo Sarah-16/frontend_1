@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "inter";
+  src: url("https://fonts.google.com/specimen/Inter");
+}
+body {
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  padding: 7em 5em;
+}
+
+.main_container {
+  display: flex;
+}
+
+.heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+}
+
+.purple_text {
+  color: hsl(277, 64%, 61%);
+}
+.paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+.left_div {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5em;
+}
+.block {
+  display: flex;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.companies,
+.templates,
+.queries {
+  padding: 0em 2em;
+}
+
+.block_heading {
+  color: hsla(0, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.right_div {
+  background-color: hsl(277, 64%, 61%);
+}
+@media screen and (max-width: 375px) {
+  .main_container {
+    flex-direction: column-reverse;
+  }
+}
